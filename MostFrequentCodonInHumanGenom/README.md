@@ -16,7 +16,7 @@ Since human genome files are enormous (often gigabytes in size), loading the ent
 * **Header Handling:** The algorithm checks for the `>` character to detect the start of a new gene.
 * **Sequence Processing:** DNA sequences are accumulated in a buffer and processed into valid codons (ignoring 'N' or invalid lengths).
 
-###  Results
+### 📊 Results
 Analysis on the `Homo_sapiens.GRCh38.cds.all.fa` dataset yielded the following results:
 
 | Rank | Codon | Amino Acid | Count |
@@ -41,7 +41,7 @@ Genetik kod frekansının analizi, amino asit sentezi sırasında kodon tercihle
 * **Başlık Yönetimi:** Yeni bir genin başlangıcını tespit etmek için `>` karakteri kontrol edilir.
 * **Sekans İşleme:** DNA dizileri bir tamponda toplanır ve geçerli kodonlara dönüştürülür ('N' içerenler veya hatalı uzunluklar hariç tutulur).
 
-###  Sonuçlar
+### 📊 Sonuçlar
 `Homo_sapiens.GRCh38.cds.all.fa` veri seti üzerindeki analiz şu sonuçları vermiştir:
 
 | Sıra | Kodon | Amino Asit | Frekans |
