@@ -1,4 +1,4 @@
-# 🧬 Finding the Most Frequent Codon Usage in the Human Genome
+#  Finding the Most Frequent Codon Usage in the Human Genome
 
 This project was developed as part of **Computational Biology** studies at **Ege University, Computer Engineering Department**. It aims to identify which codons are used most frequently in the human genome and their corresponding amino acids.
 
@@ -6,10 +6,10 @@ This project was developed as part of **Computational Biology** studies at **Ege
 
 ## 🇺🇸 [ENGLISH]
 
-### 📝 Project Overview
+###  Project Overview
 Analyzing genetic code frequency is a fundamental task in bioinformatics to understand codon preference during amino acid synthesis. This software efficiently processes large-scale genomic data in FASTA format to report the top 5 most frequent codons.
 
-### 🚀 Algorithm & Strategy
+###  Algorithm & Strategy
 Since human genome files are enormous (often gigabytes in size), loading the entire file into RAM would cause system crashes. To solve this, a **"Line-by-Line Buffering"** strategy is used:
 * **Safe Reading:** The file is opened safely and read one line at a time.
 * **Data Cleaning:** Invisible characters like line breaks are removed using `.strip()`.
