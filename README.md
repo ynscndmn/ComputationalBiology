@@ -41,7 +41,7 @@ Genetik kod frekansının analizi, amino asit sentezi sırasında kodon tercihle
 * **Başlık Yönetimi:** Yeni bir genin başlangıcını tespit etmek için `>` karakteri kontrol edilir.
 * **Sekans İşleme:** DNA dizileri bir tamponda toplanır ve geçerli kodonlara dönüştürülür ('N' içerenler veya hatalı uzunluklar hariç tutulur).
 
-###  Sonuçlar
+### 📊 Sonuçlar
 `Homo_sapiens.GRCh38.cds.all.fa` veri seti üzerindeki analiz şu sonuçları vermiştir:
 
 | Sıra | Kodon | Amino Asit | Frekans |
